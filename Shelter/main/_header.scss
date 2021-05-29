@@ -1,0 +1,51 @@
+.header {
+  padding-top: 30px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    width: fit-content;
+    text-align: center;
+  }
+
+  &__logo-title {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 2rem;
+    line-height: 110%;
+    letter-spacing: 6%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: normal;
+    color: #F1CDB3;
+  }
+
+  &__logo-subtitle {
+    font-size: 13px;
+    line-height: 14.95px;
+    letter-spacing: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #FFFFFF;
+  }
+
+  &__menu-item {
+    list-style-type: none;
+    
+  }
+}
+
+.hamburger-menu {
+  margin: auto;
+}
+
+.hamburger-stripe {
+  border-top: 2px solid #F1CDB3;
+  width: 30px;
+  display: block;
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}

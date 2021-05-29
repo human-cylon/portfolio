@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+@media (min-width: 768px) {
+  .hide-for-desktop {
+    display: none; } }
+
+@media (max-width: 767px) {
+  .hide-for-mobile {
+    display: none; } }
+
+.flex {
+  display: flex; }
+
+.header {
+  padding-top: 30px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header__logo {
+    width: fit-content;
+    text-align: center; }
+  .header__logo-title {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 2rem;
+    line-height: 110%;
+    letter-spacing: 6%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: normal;
+    color: #F1CDB3; }
+  .header__logo-subtitle {
+    font-size: 13px;
+    line-height: 14.95px;
+    letter-spacing: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #FFFFFF; }
+  .header__menu-item {
+    list-style-type: none; }
+
+.hamburger-menu {
+  margin: auto; }
+
+.hamburger-stripe {
+  border-top: 2px solid #F1CDB3;
+  width: 30px;
+  display: block; }
+  .hamburger-stripe:not(:last-child) {
+    margin-bottom: 10px; }
+
+.splash-screen {
+  background: url("../assets/noiselines.png"), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20; }
+/*# sourceMappingURL=style.css.map */
