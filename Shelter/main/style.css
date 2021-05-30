@@ -55,6 +55,8 @@ body {
     color: #FAFAFA;
     border-bottom: 3px solid #F1CDB3;
     cursor: pointer; }
+  .header__menu-item:hover:not(:first-of-type) {
+    color: #CDCDCD; }
 
 .hamburger-menu {
   margin: auto; }

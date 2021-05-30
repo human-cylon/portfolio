@@ -56,6 +56,10 @@
     border-bottom: 3px solid #F1CDB3;
     cursor: pointer;
   }
+
+  &__menu-item:hover:not(:first-of-type) {
+    color: #CDCDCD;
+  }
 }
 
 .hamburger-menu {
