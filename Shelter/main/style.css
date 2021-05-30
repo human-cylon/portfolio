@@ -8,7 +8,7 @@ body {
 
 @media (max-width: 767px) {
   .hide-for-mobile {
-    display: none; } }
+    display: none !important; } }
 
 .flex {
   display: flex; }
@@ -55,8 +55,6 @@ body {
     color: #FAFAFA;
     border-bottom: 3px solid #F1CDB3;
     cursor: pointer; }
-  .header__menu-item:hover:not(:first-of-type) {
-    color: #CDCDCD; }
 
 .hamburger-menu {
   margin: auto; }
@@ -69,7 +67,7 @@ body {
     margin-bottom: 10px; }
 
 .red {
-  border: 1px solid red; }
+  border-top: 1px solid red; }
 
 .splash-screen {
   background: url("../assets/noiselines.png"), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20; }
