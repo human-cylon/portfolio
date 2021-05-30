@@ -30,11 +30,32 @@
     color: #FFFFFF;
   }
 
-  &__menu-item {
-    list-style-type: none;
-    
+  &__menu {
+    padding-right: 40px;
   }
-}
+
+  &__menu-item {
+    font-size: 15px;
+    line-height: 24px;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #CDCDCD;
+  }
+
+  &__menu-item:not(:last-child) {
+    margin-right: 35px; 
+  }
+
+  &__menu-item_active {
+    color: #FAFAFA;
+    border-bottom: 3px solid #F1CDB3;
+  }
+
+  &__menu-item:hover {
+    color: #FAFAFA;
+    border-bottom: 3px solid #F1CDB3;
+    cursor: pointer;
+  }
 
 .hamburger-menu {
   margin: auto;
@@ -49,3 +70,5 @@
     margin-bottom: 10px;
   }
 }
+
+
