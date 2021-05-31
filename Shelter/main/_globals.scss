@@ -5,11 +5,10 @@ body {
 
 @media only screen and (min-width: 1200px) {
   .section-container {
-    max-width: 1200px;
+    max-width: 1280px;
     margin: auto;
   }
 }
-
 
 .hide-for-desktop {
   @include breakpoint-up(medium) {
