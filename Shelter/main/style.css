@@ -57,17 +57,48 @@ body {
     cursor: pointer; }
 
 .hamburger-menu {
-  margin: auto; }
+  width: 30px;
+  height: 36px;
+  margin: auto;
+  position: relative;
+  transform: rotate(0deg);
+  transition: .5s ease-in-out; }
 
 .hamburger-stripe {
   border-top: 2px solid #F1CDB3;
-  width: 30px;
-  display: block; }
+  width: 100%;
+  display: block;
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out; }
   .hamburger-stripe:not(:last-child) {
     margin-bottom: 10px; }
 
-.red {
-  border-top: 1px solid red; }
+.hamburger-stripe:nth-of-type(1) {
+  top: 0px;
+  transform-origin: left center; }
+
+.hamburger-stripe:nth-of-type(2) {
+  top: 10px; }
+
+.hamburger-stripe:nth-of-type(3) {
+  top: 20px;
+  transform-origin: left center; }
+
+.hamburger-menu.open .hamburger-stripe:nth-of-type(1) {
+  transform: rotate(45deg);
+  left: 0; }
+
+.hamburger-menu.open .hamburger-stripe:nth-of-type(2) {
+  width: 0%;
+  opacity: 0; }
+
+.hamburger-menu.open .hamburger-stripe:nth-of-type(3) {
+  transform: rotate(-45deg);
+  left: 0;
+  top: 21px; }
 
 .splash-screen {
   background: url("../assets/noiselines.png"), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20; }
