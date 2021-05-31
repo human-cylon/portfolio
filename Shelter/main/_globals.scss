@@ -3,6 +3,14 @@ body {
   padding: 0;
 }
 
+@media only screen and (min-width: 1200px) {
+  .section-container {
+    max-width: 1200px;
+    margin: auto;
+  }
+}
+
+
 .hide-for-desktop {
   @include breakpoint-up(medium) {
     display: none;

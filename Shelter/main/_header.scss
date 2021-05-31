@@ -1,6 +1,12 @@
 .header {
   padding-top: 30px;
   padding-left: 10px;
+  @media only screen and (min-width: 1280px){
+    padding-top: 60px;  
+  }
+  @media only screen and (min-width: 768px){
+    padding-left: 30px;  
+  }
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -58,7 +64,7 @@
   }
 }
 
-//menu icon: https://codepen.io/designcouch/pen/Atyop
+//close button: https://codepen.io/designcouch/pen/Atyop
 .hamburger-menu {
   width: 30px;
   height: 36px;
