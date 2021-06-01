@@ -5,10 +5,17 @@
 .splash-content {
   flex-direction: column;
   align-items: center;
+  @media only screen and (min-width: 768px) {
+    align-items: flex-start;
+  }
 }
 
 .motto {
   margin: 60px 10px 42px;
+  @media only screen and (min-width: 768px) {
+    margin-left: 154px;
+    text-align: left;
+  }
   font-size: 25px;
   font-weight: normal;
   line-height: 130%;
@@ -19,10 +26,24 @@
 }
 
 .text {
-  margin: 0 10px 42px; 
+  margin: 0 10px 42px;
+  @media only screen and (min-width: 768px) {
+    margin: 0 154px 42px;
+    text-align: left;
+  }
   font-size: 15px;
   line-height: 160%;
   font-family: Arial, Helvetica, sans-serif;
   color: #CDCDCD;
   text-align: center;
+}
+
+.hero-img {
+  margin: 105px 10px 0 50px;
+  max-width: calc(100% - 60px);
+  @media only screen and (min-width: 768px) {
+    margin: 100px 30px 0 169px;
+    max-width: calc(100% - 199px);
+  }
+  
 }
