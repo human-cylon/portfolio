@@ -37,4 +37,35 @@ body {
   border-radius: 100px;
   background-color: #F1CDB3;
   color: #292929;
+  @media only screen and (min-width: 1280px) {
+    align-self: flex-start;
+  }
+}
+
+.heading {
+  margin: 0;
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 130%;
+  letter-spacing: .06em;
+  @media only screen and (min-width: 768px){
+    font-size: 44px;
+    letter-spacing: normal;
+  }
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text {
+  font-size: 15px;
+  line-height: 160%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  @media only screen and (min-width: 768px) {
+    margin: 42px 0;
+    text-align: left;
+  }
+  @media only screen and (min-width: 1280px) {
+    margin-left: 0;
+    width: 460px;
+  }
 }

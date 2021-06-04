@@ -8,34 +8,36 @@
   @media only screen and (min-width: 768px) {
     align-items: flex-start;
   }
-}
-
-.motto {
-  margin: 60px 10px 42px;
-  @media only screen and (min-width: 768px) {
-    margin-left: 154px;
-    text-align: left;
+  @media only screen and (min-width: 1280px) {
+    flex-direction: row;
   }
-  font-size: 25px;
-  font-weight: normal;
-  line-height: 130%;
-  letter-spacing: .06em;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #FFFFFF;
-  text-align: center;
-}
 
-.text {
-  margin: 0 10px 42px;
-  @media only screen and (min-width: 768px) {
-    margin: 0 154px 42px;
-    text-align: left;
+  &__block {
+   flex-direction: column;
+   margin: 60px 10px 0;
+   text-align: center;
+   @media only screen and (min-width: 768px) {
+     margin: 60px 154px 0;
+     text-align: left;
+   }
+   @media only screen and (min-width: 1280px){
+    margin: 0 0 20px 40px;
+    align-self: center;
+    }
   }
-  font-size: 15px;
-  line-height: 160%;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #CDCDCD;
-  text-align: center;
+  
+  &__heading {
+    color: #FFFFFF;
+  }
+
+  &__text {
+    margin: 42px 0;
+    color: #CDCDCD;
+    @media only screen and (min-width: 1280px) {
+      margin-left: 0;
+      width: 460px;
+    }
+  }
 }
 
 .hero-img {
@@ -45,5 +47,7 @@
     margin: 100px 30px 0 169px;
     max-width: calc(100% - 199px);
   }
-  
+  @media only screen and (min-width: 1280px) {
+    margin: 60px 40px 0 42px;
+  }
 }
