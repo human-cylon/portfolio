@@ -16,4 +16,13 @@
   align-items: center;
   background-color: #FAFAFA;
   border-radius: 9px;
+
+  &__name {
+    margin: 30px 0;
+    font-size: 20px;
+    letter-spacing: .06em;
+    line-height: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #545454;
+  }
 }

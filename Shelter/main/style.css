@@ -263,4 +263,11 @@ body {
   align-items: center;
   background-color: #FAFAFA;
   border-radius: 9px; }
+  .card__name {
+    margin: 30px 0;
+    font-size: 20px;
+    letter-spacing: .06em;
+    line-height: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #545454; }
 /*# sourceMappingURL=style.css.map */
