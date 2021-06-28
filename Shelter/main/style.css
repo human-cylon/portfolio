@@ -29,7 +29,7 @@ body {
   border-radius: 100px;
   background-color: #F1CDB3;
   color: #292929; }
-  @media only screen and (min-width: 1280px) {
+  @media (min-width: 1280px) {
     .btn {
       align-self: flex-start; } }
 
@@ -248,4 +248,19 @@ body {
     @media (min-width: 768px) {
       .about-img {
         margin: 80px 0 100px; } }
+
+.looking-for-a-house {
+  background-color: #F6F6F6;
+  flex-direction: column;
+  align-items: center; }
+
+.looking__heading {
+  color: #545454;
+  text-align: center; }
+
+.card {
+  flex-direction: column;
+  align-items: center;
+  background-color: #FAFAFA;
+  border-radius: 9px; }
 /*# sourceMappingURL=style.css.map */

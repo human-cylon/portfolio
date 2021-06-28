@@ -38,7 +38,7 @@ body {
   border-radius: 100px;
   background-color: #F1CDB3;
   color: #292929;
-  @media only screen and (min-width: 1280px) {
+  @include breakpoint-up(large) {
     align-self: flex-start;
   }
 }
