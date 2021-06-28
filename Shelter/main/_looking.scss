@@ -6,12 +6,14 @@
 
 .looking {
   &__heading {
+    margin: 42px 10px;
     color: #545454;
     text-align: center;
   }
 }
 
 .card {
+  padding-bottom: 30px;
   flex-direction: column;
   align-items: center;
   background-color: #FAFAFA;
@@ -25,4 +27,9 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #545454;
   }
+}
+
+.learn-more-btn {
+  border: 2px solid #F1CDB3;
+  background-color: transparent;
 }
