@@ -10,6 +10,13 @@
     color: #545454;
     text-align: center;
   }
+
+  @include breakpoint-up(medium) {
+    &__slideshow {
+      position: relative;
+    }
+  }
+  
 }
 
 .card {
@@ -31,6 +38,10 @@
     &:nth-of-type(n + 3) {
       display: none;
     }
+
+    &:not(:nth-of-type(n + 2)) {
+      margin-right: 40px;
+    }
   }
 
   @include breakpoint-up(large) {
@@ -50,7 +61,27 @@
 }
 
 .slider {
-  width: calc(100% - 68px * 2);
-  margin: 20px 68px 42px;
+  width: calc(100% - (68px - 25px) * 2);
+  margin: 20px (68px - 25px) 42px;
   justify-content: space-between;
+
+  @include breakpoint-up(medium) {
+    height: 0;
+    margin: 0;
+  }
+}
+
+@include breakpoint-up(medium) {
+  .arrow-left {
+    position: absolute;
+    top: 50%;
+    left: -(12px + 52px);
+  }
+
+  .arrow-right {
+    position: absolute;
+    top: 50%;
+    // right: -22px;
+    right: -(12px + 52px);
+  }
 }

@@ -69,8 +69,8 @@ body {
   line-height: 130%;
   letter-spacing: .06em;
   @include breakpoint-up(medium) {
-    font-size: 44px;
-    letter-spacing: normal;
+    font-size: 35px;
+    letter-spacing: .06em;
   }
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
