@@ -29,10 +29,12 @@ body {
 }
 
 .btn {
+  box-sizing: border-box;
   padding: 15px 45px;
   font-size: 17px;
   line-height: 130%;
   letter-spacing: .06em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   align-self: center;
   border: none;
   border-radius: 100px;
@@ -44,6 +46,7 @@ body {
 }
 
 .btn-secondary {
+  padding: 13px 43px;
   border: 2px solid #F1CDB3;
   background-color: transparent;
 }

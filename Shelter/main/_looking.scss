@@ -9,11 +9,19 @@
     margin: 42px 10px;
     color: #545454;
     text-align: center;
+
+    @include breakpoint-up(medium) {
+      margin: 80px 0 60px;
+    }
   }
 
   @include breakpoint-up(medium) {
     &__slideshow {
       position: relative;
+    }
+
+    &__btn {
+      margin: 60px 0 100px;
     }
   }
   
@@ -53,10 +61,15 @@
   &__name {
     margin: 30px 0;
     font-size: 20px;
-    letter-spacing: .06em;
     line-height: 23px;
+    letter-spacing: .06em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #545454;
+  }
+
+  &__image {
+    max-width: 270px;
+    max-height: 270px;
   }
 }
 
@@ -74,14 +87,14 @@
 @include breakpoint-up(medium) {
   .arrow-left {
     position: absolute;
-    top: 50%;
+    //what's the 25px?
+    top: calc(50% - 25px);
     left: -(12px + 52px);
   }
 
   .arrow-right {
     position: absolute;
-    top: 50%;
-    // right: -22px;
+    top: calc(50% - 25px);
     right: -(12px + 52px);
   }
 }
