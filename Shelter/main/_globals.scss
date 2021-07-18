@@ -40,9 +40,6 @@ body {
   border-radius: 100px;
   background-color: #F1CDB3;
   color: #292929;
-  @include breakpoint-up(large) {
-    align-self: flex-start;
-  }
 }
 
 .btn-secondary {

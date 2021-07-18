@@ -40,6 +40,12 @@
       width: 460px;
     }
   }
+
+  &__btn {
+    @include breakpoint-up(large) {
+      align-self: flex-start;
+    }
+  }
 }
 
 .hero-img {

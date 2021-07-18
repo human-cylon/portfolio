@@ -31,9 +31,6 @@ body {
   border-radius: 100px;
   background-color: #F1CDB3;
   color: #292929; }
-  @media (min-width: 1280px) {
-    .btn {
-      align-self: flex-start; } }
 
 .btn-secondary {
   padding: 13px 43px;
@@ -207,6 +204,9 @@ body {
       .splash-content__text {
         margin-left: 0;
         width: 460px; } }
+  @media (min-width: 1280px) {
+    .splash-content__btn {
+      align-self: flex-start; } }
 
 .hero-img {
   margin: 105px 10px 0 50px;
