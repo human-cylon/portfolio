@@ -197,9 +197,14 @@ body {
         margin: 0 0 20px 40px;
         align-self: center; } }
   .splash-content__heading {
-    font-size: 44px;
-    letter-spacing: normal;
-    color: #FFFFFF; }
+    font-size: 25px;
+    line-height: 130%;
+    color: #FFFFFF;
+    letter-spacing: .06em; }
+    @media (min-width: 768px) {
+      .splash-content__heading {
+        font-size: 44px;
+        letter-spacing: normal; } }
   .splash-content__text {
     margin: 42px 0;
     color: #CDCDCD; }
@@ -348,7 +353,8 @@ body {
   text-align: center; }
 
 .help-shelter__content {
-  flex-wrap: wrap; }
+  grid-template-columns: auto auto;
+  row-gap: 30px; }
 
 .help-shelter__block {
   flex-direction: column;

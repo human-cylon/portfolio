@@ -1,12 +1,12 @@
 .help-shelter {
-  
   &__heading {
     margin: 42px 0;
     text-align: center;
   }
 
   &__content {
-    flex-wrap: wrap;
+    grid-template-columns: auto auto;
+    row-gap: 30px;
   }
 
   &__block {

@@ -27,9 +27,14 @@
   }
   
   &__heading {
-    font-size: 44px;
-    letter-spacing: normal;
+    font-size: 25px;
+    line-height: 130%;
     color: #FFFFFF;
+    letter-spacing: .06em;
+    @include breakpoint-up(medium) {
+      font-size: 44px;
+      letter-spacing: normal;
+    }
   }
 
   &__text {
