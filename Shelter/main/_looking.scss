@@ -15,6 +15,10 @@
     }
   }
 
+  &__btn {
+    margin-bottom: 42px;
+  }
+
   @include breakpoint-up(medium) {
     &__slideshow {
       position: relative;
