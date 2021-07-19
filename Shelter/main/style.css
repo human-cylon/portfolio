@@ -430,6 +430,9 @@ body {
     font-style: italic;
     text-align: justify;
     color: #B2B2B2; }
+  .donation__image {
+    margin: 0 30px 42px;
+    max-width: calc(100% - 30px * 2); }
 
 .account__number {
   padding-left: 15px;

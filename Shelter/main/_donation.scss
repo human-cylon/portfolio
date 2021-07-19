@@ -30,6 +30,11 @@
     text-align: justify;
     color: #B2B2B2;
   }
+
+  &__image {
+    margin: 0 30px 42px;
+    max-width: calc(100% - 30px * 2);
+  }
 }
 
 .account {
