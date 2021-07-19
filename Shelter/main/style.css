@@ -482,6 +482,11 @@ body {
   flex-direction: column;
   align-items: center;
   background: url("../assets/noiselines.png"), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20; }
+  .footer__text-content {
+    flex-direction: column; }
+    @media (min-width: 768px) {
+      .footer__text-content {
+        flex-direction: row; } }
   .footer__heading {
     padding-bottom: 40px;
     font-size: 25px;
