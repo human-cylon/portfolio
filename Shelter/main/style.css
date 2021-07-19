@@ -356,8 +356,9 @@ body {
   text-align: center; }
 
 .help-shelter__content {
-  grid-template-columns: auto auto;
-  row-gap: 30px; }
+  margin-bottom: 42px;
+  row-gap: 30px;
+  grid-template-columns: auto auto; }
 
 .help-shelter__block {
   flex-direction: column;
@@ -370,7 +371,7 @@ body {
 .block__caption {
   margin-top: 20px;
   font-size: 15px;
-  line-height: 110%;
+  line-height: 17px;
   letter-spacing: .06em;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #545454;

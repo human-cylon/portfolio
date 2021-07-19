@@ -5,8 +5,10 @@
   }
 
   &__content {
-    grid-template-columns: auto auto;
+    margin-bottom: 42px;
     row-gap: 30px;
+    grid-template-columns: auto auto;
+    
   }
 
   &__block {
@@ -24,7 +26,7 @@
   &__caption {
     margin-top: 20px;
     font-size: 15px;
-    line-height: 110%;
+    line-height: 17px;
     letter-spacing: .06em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #545454;
