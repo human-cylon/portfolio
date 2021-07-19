@@ -38,7 +38,11 @@
   }
 
   &__menu {
-    padding-right: 40px;
+    padding-right: 30px;
+
+    @include breakpoint-up(large) {
+      padding-right: 40px;
+    }
   }
 
   &__menu-item {

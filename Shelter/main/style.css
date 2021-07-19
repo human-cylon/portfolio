@@ -111,7 +111,10 @@ body {
     font-weight: normal;
     color: #FFFFFF; }
   .header__menu {
-    padding-right: 40px; }
+    padding-right: 30px; }
+    @media (min-width: 1280px) {
+      .header__menu {
+        padding-right: 40px; } }
   .header__menu-item {
     font-size: 15px;
     line-height: 24px;
