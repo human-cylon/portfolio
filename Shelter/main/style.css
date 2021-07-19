@@ -368,6 +368,12 @@ body {
       column-gap: 60px;
       row-gap: 55px;
       grid-template-columns: auto auto auto; } }
+  @media (min-width: 1280px) {
+    .help-shelter__content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      column-gap: 120px; } }
 
 .help-shelter__block {
   flex-direction: column;
