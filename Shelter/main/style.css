@@ -300,7 +300,8 @@ body {
       display: none; } }
   @media (max-width: 1279.9px) {
     .card:nth-of-type(n + 3) {
-      display: none; }
+      display: none; } }
+  @media (min-width: 768px) {
     .card:not(:nth-of-type(2)) {
       margin-right: 40px; } }
   @media (min-width: 1280px) {
@@ -335,4 +336,9 @@ body {
     position: absolute;
     top: calc(50% - 25px);
     right: -64px; } }
+
+.help-shelter {
+  align-items: center; }
+  .help-shelter__heading {
+    text-align: center; }
 /*# sourceMappingURL=style.css.map */
