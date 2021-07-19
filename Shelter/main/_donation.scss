@@ -1,4 +1,6 @@
 .donation {
+  align-items: center;
+  flex-direction: column;
   background-color: #F6F6F6;
   
   &__heading {
@@ -9,5 +11,20 @@
   &__text {
     color: #545454;
     padding-bottom: 20px;
+  }
+
+  &__account {
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 9px;
+    background-color: #F1CDB3;
+    align-items: center;
+  }
+}
+
+.account {
+  &__number {
+    padding-left: 15px;
+    color: #545454;
   }
 }

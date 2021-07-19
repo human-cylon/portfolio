@@ -78,6 +78,12 @@ body {
       margin-left: 0;
       width: 460px; } }
 
+.caption {
+  font-size: 15px;
+  line-height: 17px;
+  letter-spacing: .06em;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
 .header {
   padding-top: 30px;
   padding-left: 10px;
@@ -401,6 +407,8 @@ body {
       line-height: 23px; } }
 
 .donation {
+  align-items: center;
+  flex-direction: column;
   background-color: #F6F6F6; }
   .donation__heading {
     padding: 42px 0 20px;
@@ -408,4 +416,14 @@ body {
   .donation__text {
     color: #545454;
     padding-bottom: 20px; }
+  .donation__account {
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 9px;
+    background-color: #F1CDB3;
+    align-items: center; }
+
+.account__number {
+  padding-left: 15px;
+  color: #545454; }
 /*# sourceMappingURL=style.css.map */
