@@ -9,6 +9,7 @@
 
     @include breakpoint-up(medium) {
       flex-direction: row;
+      column-gap: 60px;
     }
   }
 
@@ -20,6 +21,12 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     color: #FFFFFF;
+
+    @include breakpoint-up(medium) {
+      font-size: 35px;
+      line-height: 45px;
+      text-align: left;
+    }
   }
 
   &__contacts {
