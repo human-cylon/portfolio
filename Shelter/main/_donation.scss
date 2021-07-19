@@ -1,16 +1,37 @@
 .donation {
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   background-color: #F6F6F6;
   
+  &__text-content {
+    align-items: center;
+    flex-direction: column;
+
+    @include breakpoint-up(medium) {
+      align-items: flex-start;
+    }
+  }
+
   &__heading {
     padding: 42px 0 20px;
     text-align: center;
+
+    @include breakpoint-up(medium) {
+      padding-top: 80px;
+      text-align: left;
+
+    }
   }
 
   &__text {
     color: #545454;
     padding-bottom: 20px;
+
+    @include breakpoint-up(medium) {
+      line-height: 17px;
+      letter-spacing: .06em;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
   }
 
   &__account {
@@ -22,18 +43,29 @@
   }
 
   &__legal {
-    margin:0 20px 42px;
+    margin-bottom: 42px;
+    max-width: 280px;
     font-size: 12px;
     line-height: 18px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     text-align: justify;
     color: #B2B2B2;
+
+    @include breakpoint-up(medium) {
+      margin-bottom: 60px;
+      max-width: 380px;
+      text-align: left;
+    }
   }
 
   &__image {
     margin: 0 30px 42px;
     max-width: calc(100% - 30px * 2);
+
+    @include breakpoint-up(medium) {
+      margin: 0 0 100px;
+    }
   }
 }
 
@@ -41,5 +73,10 @@
   &__number {
     padding-left: 15px;
     color: #545454;
+
+    @include breakpoint-up(medium) {
+      font-size: 20px;
+      line-height: 23px;
+    }
   }
 }

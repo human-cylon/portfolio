@@ -81,11 +81,11 @@ body {
 
 .text {
   font-size: 15px;
-  line-height: 160%;
+  line-height: 24px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   @include breakpoint-up(medium) {
-    margin: 42px 0;
+    // margin: 42px 0;
     text-align: left;
   }
   @include breakpoint-up(large) {

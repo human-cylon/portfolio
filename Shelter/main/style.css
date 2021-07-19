@@ -66,12 +66,11 @@ body {
 
 .text {
   font-size: 15px;
-  line-height: 160%;
+  line-height: 24px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center; }
   @media (min-width: 768px) {
     .text {
-      margin: 42px 0;
       text-align: left; } }
   @media (min-width: 1280px) {
     .text {
@@ -407,15 +406,30 @@ body {
       line-height: 23px; } }
 
 .donation {
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   background-color: #F6F6F6; }
+  .donation__text-content {
+    align-items: center;
+    flex-direction: column; }
+    @media (min-width: 768px) {
+      .donation__text-content {
+        align-items: flex-start; } }
   .donation__heading {
     padding: 42px 0 20px;
     text-align: center; }
+    @media (min-width: 768px) {
+      .donation__heading {
+        padding-top: 80px;
+        text-align: left; } }
   .donation__text {
     color: #545454;
     padding-bottom: 20px; }
+    @media (min-width: 768px) {
+      .donation__text {
+        line-height: 17px;
+        letter-spacing: .06em;
+        font-family: Georgia, 'Times New Roman', Times, serif; } }
   .donation__account {
     margin-bottom: 20px;
     padding: 10px 15px;
@@ -423,18 +437,31 @@ body {
     background-color: #F1CDB3;
     align-items: center; }
   .donation__legal {
-    margin: 0 20px 42px;
+    margin-bottom: 42px;
+    max-width: 280px;
     font-size: 12px;
     line-height: 18px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     text-align: justify;
     color: #B2B2B2; }
+    @media (min-width: 768px) {
+      .donation__legal {
+        margin-bottom: 60px;
+        max-width: 380px;
+        text-align: left; } }
   .donation__image {
     margin: 0 30px 42px;
     max-width: calc(100% - 30px * 2); }
+    @media (min-width: 768px) {
+      .donation__image {
+        margin: 0 0 100px; } }
 
 .account__number {
   padding-left: 15px;
   color: #545454; }
+  @media (min-width: 768px) {
+    .account__number {
+      font-size: 20px;
+      line-height: 23px; } }
 /*# sourceMappingURL=style.css.map */
