@@ -1,3 +1,13 @@
 .footer {
- background: url('../assets/noiselines.png'), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+  background: url('../assets/noiselines.png'), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+  
+  &__heading {
+    padding: 30px 0 40px;
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: .06em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #FFFFFF;
+  }
 }
