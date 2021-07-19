@@ -354,11 +354,20 @@ body {
 .help-shelter__heading {
   margin: 42px 0;
   text-align: center; }
+  @media (min-width: 768px) {
+    .help-shelter__heading {
+      margin: 80px 0 60px; } }
 
 .help-shelter__content {
   margin-bottom: 42px;
   row-gap: 30px;
   grid-template-columns: auto auto; }
+  @media (min-width: 768px) {
+    .help-shelter__content {
+      margin: 0 69px 100px;
+      column-gap: 60px;
+      row-gap: 55px;
+      grid-template-columns: auto auto auto; } }
 
 .help-shelter__block {
   flex-direction: column;
@@ -367,13 +376,24 @@ body {
 .block__image {
   max-height: 50px;
   max-width: 50px; }
+  @media (min-width: 768px) {
+    .block__image {
+      max-height: fit-content;
+      max-width: fit-content; } }
 
 .block__caption {
   margin-top: 20px;
+  max-width: 130px;
   font-size: 15px;
   line-height: 17px;
   letter-spacing: .06em;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #545454;
   text-align: center; }
+  @media (min-width: 768px) {
+    .block__caption {
+      margin-top: 30px;
+      max-width: 170px;
+      font-size: 20px;
+      line-height: 23px; } }
 /*# sourceMappingURL=style.css.map */
