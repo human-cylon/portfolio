@@ -1,5 +1,7 @@
 .footer {
   padding-top: 30px;
+  flex-direction: column;
+  align-items: center;
   background: url('../assets/noiselines.png'), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
   
   &__heading {
@@ -15,6 +17,10 @@
   &__contacts {
     flex-direction: column;
     align-items: center;
+  }
+
+  &__address {
+    // align-self: flex-start;
   }
 
   &__text {
@@ -34,8 +40,8 @@
     margin-right: 20px;
   }
 
-  &__pin {
-    margin-left: 10px;
+  &__image {
+    max-width: calc(100% - 30px * 2);
   }
 }
 
@@ -44,6 +50,7 @@
     padding-top: 3px;
   }
 }
+
 
 
   
