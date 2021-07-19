@@ -478,9 +478,10 @@ body {
       line-height: 23px; } }
 
 .footer {
+  padding-top: 30px;
   background: url("../assets/noiselines.png"), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20; }
   .footer__heading {
-    padding: 30px 0 40px;
+    padding-bottom: 40px;
     font-size: 25px;
     line-height: 32px;
     letter-spacing: .06em;
@@ -497,11 +498,13 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #F1CDB3; }
   .footer__item {
+    margin-bottom: 40px;
     align-items: center; }
-    .footer__item:not(:last-child) {
-      margin-bottom: 40px; }
   .footer__icon {
     margin-right: 20px; }
   .footer__pin {
     margin-left: 10px; }
+
+.contacts__item {
+  padding-top: 3px; }
 /*# sourceMappingURL=style.css.map */
