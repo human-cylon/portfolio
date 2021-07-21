@@ -5,8 +5,7 @@
   background: url('../assets/noiselines.png'), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
   
   @include breakpoint-up(large) {
-    padding-top: 0;
-    padding-right: 40px;
+    padding: 40px 40px 0;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
@@ -22,8 +21,8 @@
     }
 
     @include breakpoint-up(large) {
-      padding: 56px 0 60px 40px;
-      width: calc(2/3 * 1280px - 40px * 3);
+      padding: 16px 0 60px;
+      width: calc(2 / 3 * 100vw - (160px - 40px));
       justify-content: space-between;
     }
   }
